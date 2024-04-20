@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llid"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/person_lifting_weights_medium_light_skin_tone_svgrepo_com" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="48sp"
+        android:hint="@string/htft"
+        android:ems="12"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:id="@+id/htft">
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="48sp"
+        android:hint="@string/htin"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:ems="12"
+        android:id="@+id/htin">
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="48sp"
+        android:hint="@string/wt"
+        android:textSize="20sp"
+        android:ems="12"
+        android:inputType="number"
+        android:id="@+id/wt">
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn"
+        android:textSize="30sp"
+        android:backgroundTint="#54B8E6"
+        android:layout_marginTop="10sp"
+        android:id="@+id/btn">
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtvw"
+        android:textSize="30sp"
+        android:id="@+id/res"
+        android:layout_marginTop="10sp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/fbmi">
+
+    </TextView>
+
+</LinearLayout>
